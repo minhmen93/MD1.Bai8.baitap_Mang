@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="Demso">
+<button type="button" onclick="result()"> Result </button>
+<p id="kq"></p>
+<script>
+  function result(){
+    let text = document.getElementById("Demso").value;
+    const Arr= text.split(" ");
+    document.getElementById("kq").innerHTML=' Số từ trong chuỗi là :'+ Arr.length;
+  }
+</script>
+</body>
+</html>

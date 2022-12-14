@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="Mangkytu" >
+<button type="button" onclick="Change()" > Thay Thế </button>
+<script>
+    function Change() {
+        let mang = document.getElementById("Mangkytu").value;
+       let x= mang.replaceAll("-","_")
+        alert(x)
+
+    }
+</script>
+</body>
+</html>

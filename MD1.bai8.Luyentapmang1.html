@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> khởi tạo mảng số nguyên </title>
+</head>
+<body>
+<input type="text" id="nhap" >
+<button type="button" onclick="Nhapgiatri()"> Kết Quả </button>
+<p id="kq"></p>
+
+<script>
+    let num = [];
+    function Nhapgiatri(){
+    let data= +document.getElementById('nhap').value;
+    num.push(data);
+    num.reverse();
+        document.getElementById('kq').innerHTML=num;
+}
+
+</script>
+
+
+</body>
+</html>
